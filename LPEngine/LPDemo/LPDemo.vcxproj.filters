@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6a20c076-2a2d-4394-ab38-ec3ed497df22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{b78929ac-e56b-4913-afc6-ca4e6d0736b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\BaseWindow">
+      <UniqueIdentifier>{b5711436-4679-430e-8ab7-c7d580bb7ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Demo">
+      <UniqueIdentifier>{d4f12c67-d0dd-4171-81b5-f317548e4dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Demo">
+      <UniqueIdentifier>{299af7e5-2093-4c5b-864f-e66034b4f2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{3ef3dc14-e2e0-4cae-beae-b85b1a62d5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Demo\Default">
+      <UniqueIdentifier>{cc7d0d41-78c8-4ce6-b15e-395f0d97ab5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Demo\Default">
+      <UniqueIdentifier>{7d590544-b4e7-4b6c-88dd-39297bd22c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Control">
+      <UniqueIdentifier>{14c24af4-6cd7-4faf-b250-111ffda9b50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Control">
+      <UniqueIdentifier>{29e6010b-f0d2-4782-992d-dfcddca975e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultDemo.cpp">
+      <Filter>Source\Demo\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Source\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoUtils.cpp">
+      <Filter>Source\Demo\Default</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseWindow.h">
+      <Filter>Include\BaseWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultDemo.h">
+      <Filter>Include\Demo\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Include\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Include\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Include\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoUtils.h">
+      <Filter>Include\Demo\Default</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
